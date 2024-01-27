@@ -1,3 +1,11 @@
+<?php
+session_start();
+
+if(!isset($_SESSION["userName"])) {
+    header("Location: index.php");
+    exit();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,6 +44,7 @@
 </head>
 <body>
     <header>
+    <a class="nav-link" href="config/logout.php">Logout</a>
         <h1>Simple eCommerce</h1>
     </header>
     <section>

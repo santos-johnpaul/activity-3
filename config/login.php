@@ -15,7 +15,7 @@ if (isset($_POST["login"])) {
     if ($result->num_rows > 0) {
         // Login successful
         $_SESSION["userName"] = $userName;
-        header("Location: ../homepage.php");
+        header("Location: ../lazhopee.php");
         exit();
     } else {
         // Login failed
