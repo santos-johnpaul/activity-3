@@ -33,6 +33,24 @@
     margin-top: 5px;
 }
 
+.slideshow-container {
+    max-width: 500px;
+    position: relative;
+    margin: left;
+  }
+
+  .mySlides {
+    display: none;
+  }
+
+  .fade {
+    animation: fade 1.5s ease-in-out infinite;
+  }
+
+  @keyframes fade {
+    0%, 100% { opacity: 0.4; }
+    25%, 75% { opacity: 1; }
+  }
 
 
 .content{
