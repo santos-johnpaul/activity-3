@@ -40,21 +40,21 @@
     </header>
     <section>
         <div class="product">
-            <img src="qq.jpg" alt="Product 1">
+            <img src="photos/h1.png" alt="Product 1">
             <h2>Product 1</h2>
             <p>Description of Product 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <p>$19.99</p>
             <button>Add to Cart</button>
         </div>
         <div class="product">
-            <img src="111.jpg" alt="Product 2">
+            <img src="photos/h2.png" alt="Product 2">
             <h2>Product 2</h2>
             <p>Description of Product 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <p>$29.99</p>
             <button>Add to Cart</button>
         </div>
         <div class="product">
-            <img src="12345.jpg" alt="Product 3">
+            <img src="photos/h3.png" alt="Product 3">
             <h2>Product 3</h2>
             <p>Description of Product 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <p>$39.99</p>
