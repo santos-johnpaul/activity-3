@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Russel</title>
+    <title>LAZHOPEE</title>
     
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -18,7 +18,42 @@
 
         </div> 
         <div class="content">
-            <h1>Web Design & <br><span>Development</span> <br>Course</h1>
+        <div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="photos/aa.jpg" style="width:120%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="photos/yy.jpg" style="width:120%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="photos/zz.jpg" style="width:120%">
+  </div>
+</div>
+
+<script>
+  let slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+    let i;
+    const slides = document.getElementsByClassName("mySlides");
+    
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+
+    slideIndex++;
+
+    if (slideIndex > slides.length) {
+      slideIndex = 1;
+    }
+
+    slides[slideIndex - 1].style.display = "block";
+    setTimeout(showSlides, 2000); // Change slide every 2 seconds
+  }
+</script>
 
             <form class="login-form" action="config/login.php" method="post">
         <div class="form">
