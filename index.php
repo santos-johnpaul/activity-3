@@ -22,6 +22,14 @@
 
             <form class="login-form" action="config/login.php" method="post">
         <div class="form">
+        <?php
+    // Check if the alert session variable is set
+    if(isset($_SESSION["alert"])) {
+        echo '<div class="alert alert-danger" role="alert">' . $_SESSION["alert"] . '</div>';
+        // Unset the alert session variable
+        unset($_SESSION["alert"]);
+    }
+    ?>
                     <h2>LAZHOPEE</h2>
                     <input type="text" id="username" name="userName"  placeholder ="Email"required>
                     <input type="password" id="password" name="Password"placeholder="Password" required>
@@ -34,3 +42,11 @@
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>
 </html>
+
+<?php
+session_start();
+if(isset($_SESSION["userName"])) {
+    header("Location: homepage.php");
+    exit();
+}
+?>
