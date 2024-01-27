@@ -18,7 +18,7 @@
 
         </div> 
         <div class="content">
-            <h1>Web Design & <br><span>Development</span> <br>Course</h1>
+            <h1>Web Desig & <br><span>Development</span> <br>Course</h1>
 
             <form class="login-form" action="config/login.php" method="post">
         <div class="form">
