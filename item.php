@@ -86,6 +86,7 @@ $result = $conn->query($sql);
         <nav>
             <a class="nav-link" href="lazhopee.php">Home</a>
             <a class="nav-link" href="item.php">CRUD</a>
+            <a class="nav-link" href="about.php">About</a>
             <a class="nav-link" href="config/logout.php">Logout</a>
         </nav>
         <h1>LAZHOPEE</h1>
